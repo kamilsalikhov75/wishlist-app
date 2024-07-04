@@ -1,9 +1,10 @@
-import { Event } from "@/entities";
+import { IEvent } from "@/entities";
 import Link from "next/link";
 
 interface EventLinkProps {
-  event: Event;
+  event: IEvent;
 }
+
 export const EventLink = ({ event }: EventLinkProps) => {
   return (
     <Link className="flex flex-col text-center w-[calc(100dvw/4-16px)] gap-2 max-w-[100px]" href={`/list/${event.id}`}>

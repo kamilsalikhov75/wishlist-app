@@ -1,6 +1,6 @@
-import { Event } from "@/entities";
+import { IEvent } from "@/entities";
 
-export const MOCK_EVENTS: Event[] = [
+export const MOCK_EVENTS: IEvent[] = [
   {
     id: "1",
     title: "Свадьба",

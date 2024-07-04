@@ -1,6 +1,6 @@
 "use client";
 
-import { Wish } from "@/entities";
+import { IWish } from "@/entities";
 import { ArrowRightIcon } from "@/shared";
 import clsx from "clsx";
 import { motion, MotionStyle } from "framer-motion";
@@ -13,7 +13,7 @@ interface WishCardProps {
   style?: MotionStyle;
   onClick: (index: number) => void;
   className?: string;
-  wish: Wish;
+  wish: IWish;
   currentWish: number;
   index: number;
 }
@@ -27,8 +27,6 @@ export const WishCard = ({
   currentWish,
   index,
 }: WishCardProps) => {
-  console.log(backgroundColors[index]);
-
   const onCardClick = () => {
     if (currentWish === index) {
       return;

@@ -6,7 +6,7 @@ export const Footer = () => {
   return (
     <footer className="pt-3">
       <nav className="relative grid grid-cols-2 border-t-1 p-3">
-        <Link className="flex flex-col items-center justify-self-center" href="">
+        <Link className="flex flex-col items-center justify-self-center" href="/list">
           <GemIcon />
           Хотелки
         </Link>
