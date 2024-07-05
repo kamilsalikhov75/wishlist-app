@@ -5,7 +5,7 @@ import { WithTitle } from "@/shared";
 export const WishesPage = () => {
   return (
     <WithTitle title="Мои хотелки">
-      <div>
+      <div className="flex flex-col gap-4">
         {MOCK_WISHES.map((wish) => (
           <WishRow wish={wish} key={wish.id} />
         ))}
