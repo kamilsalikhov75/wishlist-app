@@ -8,7 +8,7 @@ export const Footer = () => {
       <nav className="relative grid grid-cols-2 border-t-1 p-3">
         <Link
           className="flex flex-col items-center justify-self-center"
-          href="/event"
+          href="/list"
         >
           <GemIcon />
           Хотелки
