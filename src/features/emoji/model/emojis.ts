@@ -171,15 +171,6 @@ export const EMOJIS = [
     ios_version: "6.0",
   },
   {
-    emoji: "☺️",
-    description: "smiling face",
-    category: "Smileys & Emotion",
-    aliases: ["relaxed"],
-    tags: ["blush", "pleased"],
-    unicode_version: "",
-    ios_version: "6.0",
-  },
-  {
     emoji: "😚",
     description: "kissing face with closed eyes",
     category: "Smileys & Emotion",
@@ -690,15 +681,6 @@ export const EMOJIS = [
     aliases: ["slightly_frowning_face"],
     tags: [],
     unicode_version: "7.0",
-    ios_version: "9.1",
-  },
-  {
-    emoji: "☹️",
-    description: "frowning face",
-    category: "Smileys & Emotion",
-    aliases: ["frowning_face"],
-    tags: [],
-    unicode_version: "",
     ios_version: "9.1",
   },
   {
