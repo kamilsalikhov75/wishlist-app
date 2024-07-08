@@ -12,7 +12,7 @@ export const WishCards = () => {
   return (
     <WithTitle
       title="Хотелки"
-      titleRightContent={<Link href="/list">Посмотреть все</Link>}
+      titleRightContent={<Link href="/event">Посмотреть все</Link>}
     >
       <div className="flex flex-col items-center relative">
         {MOCK_WISHES.map((wish, index) => (
