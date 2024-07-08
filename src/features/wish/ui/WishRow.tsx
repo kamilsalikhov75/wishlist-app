@@ -9,7 +9,7 @@ interface WishRowProps {
 }
 export const WishRow = ({ wish }: WishRowProps) => {
   return (
-    <div className="p-3 rounded-[16px] w-full h-fit bg-purple-200">
+    <div className="p-3 rounded-[16px] w-full h-fit bg-purple-50">
       <div className="flex gap-6 justify-start">
         <span className="text-[30px] h-[60px] px-[15px] flex items-center justify-center bg-white rounded-[16px] ">
           {wish.icon || DEFAULT_ICON}

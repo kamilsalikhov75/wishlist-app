@@ -12,7 +12,7 @@ export const Footer = () => {
         </Link>
         <Link
           className="w-fit justify-self-center self-end p-4 rounded-full bg-black absolute -top-7"
-          href=""
+          href="/wish/create"
         >
           <PlusIcon />
         </Link>

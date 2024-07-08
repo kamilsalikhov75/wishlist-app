@@ -7,7 +7,11 @@ import { motion, MotionStyle } from "framer-motion";
 import Link from "next/link";
 import { MouseEventHandler } from "react";
 
-const backgroundColors = ["red", "purple", "green"];
+const backgroundColors = [
+  "rgb(255 241 242)",
+  "rgb(250 245 255)",
+  "rgb(236 253 245)",
+];
 
 interface WishCardProps {
   style?: MotionStyle;
@@ -74,7 +78,7 @@ export const WishCard = ({
     >
       <span className="text-[50px]">{wish.icon || "🎁"}</span>
       <Link
-        href="/test"
+        href={`/wish/${wish.id}`}
         onClick={onLinkClick}
         className="w-full rounded-[10px] bg-white h-fit p-2 flex justify-between items-center"
       >

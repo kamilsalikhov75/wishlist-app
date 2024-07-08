@@ -19,7 +19,7 @@ export const WithTitle = ({
 }: WithTitleProps) => {
   return (
     <div
-      className={clsx("flex flex-col gap-3 items-start mb-5", classNames?.wrapper)}
+      className={clsx("flex flex-col gap-3 items-start", classNames?.wrapper)}
     >
       <div
         className={clsx(
