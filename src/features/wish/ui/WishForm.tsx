@@ -2,7 +2,7 @@
 
 import { Input } from "@nextui-org/react";
 import { useState } from "react";
-import { EmojiPicker } from "@/features";
+import { EmojiPicker } from "@/shared";
 
 export const WishForm = () => {
   const [icon, setIcon] = useState("🎁");
