@@ -6,3 +6,5 @@ export * from "./LinkIcon";
 export * from "./DotsVIcon";
 export * from "./EmojiIcon";
 export * from "./SearchIcon";
+export * from "./CopyIcon";
+export * from "./CheckIcon";

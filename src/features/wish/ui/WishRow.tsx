@@ -1,5 +1,12 @@
 import { IWish } from "@/entities";
-import { DEFAULT_ICON, DotsVIcon, LinkIcon } from "@/shared";
+import {
+  CheckIcon,
+  Copy,
+  CopyIcon,
+  DEFAULT_ICON,
+  DotsVIcon,
+  LinkIcon,
+} from "@/shared";
 import { Button, Snippet } from "@nextui-org/react";
 import { WishDropdownMenu } from "./WishDropdownMenu";
 import Link from "next/link";
@@ -22,17 +29,7 @@ export const WishRow = ({ wish }: WishRowProps) => {
           <WishDropdownMenu />
         </div>
       </div>
-      {wish.link && (
-        <Snippet
-          symbol=""
-          className="w-full mt-4 bg-white"
-          classNames={{ pre: "truncate" }}
-        >
-          <Link target="_blank" href={wish.link}>
-            {wish.link}
-          </Link>
-        </Snippet>
-      )}
+      {wish.link && <Copy link={wish.link} />}
     </div>
   );
 };
