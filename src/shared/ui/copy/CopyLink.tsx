@@ -14,6 +14,7 @@ export const Copy = ({ link }: CopyProps) => {
       classNames={{ pre: "truncate" }}
       copyIcon={<CopyIcon />}
       checkIcon={<CheckIcon />}
+      disableTooltip
     >
       <Link target="_blank" href={link}>
         {link}
