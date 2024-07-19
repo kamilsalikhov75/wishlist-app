@@ -1,7 +1,9 @@
+import { EventForm } from "@/features";
+
 export const CreateEventPage = () => {
   return (
     <div>
-      <h1>create event</h1>
+      <EventForm />
     </div>
   );
 };

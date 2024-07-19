@@ -1,4 +1,4 @@
-import { Button } from "@nextui-org/react";
+import { Button } from "@/shared";
 import Link from "next/link";
 
 interface MainButtonLayoutProps {

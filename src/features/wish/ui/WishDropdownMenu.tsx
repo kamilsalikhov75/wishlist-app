@@ -2,7 +2,6 @@
 
 import { DotsVIcon } from "@/shared";
 import {
-  Button,
   Dropdown,
   DropdownItem,
   DropdownMenu,
@@ -10,6 +9,7 @@ import {
 } from "@nextui-org/react";
 import { WishFormModal } from "./WishFormModal";
 import { useState } from "react";
+import { Button } from "@/shared";
 
 export const WishDropdownMenu = () => {
   const [isModalOpen, setIsModalOpen] = useState(false);
