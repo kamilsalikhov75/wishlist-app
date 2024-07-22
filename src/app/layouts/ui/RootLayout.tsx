@@ -1,17 +1,14 @@
 "use client";
-import WebApp from "@twa-dev/sdk";
 import { Header, Footer } from "@/widgets";
 import "../globals.css";
-import { useTelegramInitData } from "@/shared";
+import { useInitData } from "@telegram-apps/sdk-react";
 
 interface RootLayoutProps {
   children: React.ReactNode;
 }
 
 export const RootLayout = ({ children }: RootLayoutProps) => {
-  WebApp.ready();
-  const data = useTelegramInitData();
-
+  const data = useInitData(true);
   console.log(data);
 
   return (

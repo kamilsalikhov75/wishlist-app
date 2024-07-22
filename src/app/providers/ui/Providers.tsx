@@ -1,3 +1,4 @@
+import { TmaProvider } from "./TmaProvider";
 import { UIProvider } from "./UIProvider";
 
 interface ProvidersProps {
@@ -5,5 +6,9 @@ interface ProvidersProps {
 }
 
 export const Providers = ({ children }: ProvidersProps) => {
-  return <UIProvider>{children}</UIProvider>;
+  return (
+    <UIProvider>
+      <TmaProvider>{children}</TmaProvider>
+    </UIProvider>
+  );
 };
