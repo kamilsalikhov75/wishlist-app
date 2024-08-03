@@ -1,6 +1,6 @@
 import { EventList, WishCards } from "@/features";
 
-export const MainPage = () => {
+export const DashboardPage = () => {
   return (
     <>
       <EventList />
